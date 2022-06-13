@@ -6,11 +6,12 @@
 
 ## Description
 
-## How to download dataset?
+## How to download Gaokao datasets?
+
+## How to get scores of (i.e., evaluate) your AI systems?
 
 ## Where to browse Gaokao leaderboard?
 
-## How to let your AI participate in Gaokao?
-
+## Add more papers into Gaokao Benchmark?
 
 
