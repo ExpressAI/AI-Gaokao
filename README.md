@@ -24,10 +24,21 @@ where
   [here](https://explainaboard.inspiredco.ai/datasets) 
 * `listening` is a subdataset name that represents question type in Gaokao. You can find all question types [here](xx)
 
+Different types of questions in Gaokao English are formatted diversely. Below we will give detailed description.
+* listening
+* cloze-multiple-choice
+* cloze-hint
+* reading-multiple-choice
+* reading-cloze
+* writing-grammar
+* writing-essay
+
+
+
 
 ### Q: How to get scores of (i.e., evaluate) your AI systems?
 
-#### 1 Using ExplainaBoard SDK
+#### 1. Using ExplainaBoard SDK
 
 
 #### 2. Using ExplainaBoard Web Platform
