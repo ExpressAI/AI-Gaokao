@@ -4,13 +4,13 @@
 </p>
 
 
-#### Description
+### Q: What is Gaokao Benchmark?
 Gaokao Benchmark aims to track how well we make progress towards human-level intelligence. It can not only provide a comprehensive evaluation of different tasks and domains that are practically useful in a real-world scenario, but also provide rich human performance so that AI systems can be
 directly compared with humans over time.
 
 
 
-### How to download Gaokao datasets?
+### Q: How to download Gaokao datasets?
 
 ```
 pip install --upgrade pip
@@ -25,7 +25,7 @@ where
 * `listening` is a subdataset name that represents question type in Gaokao. You can find all question types [here](xx)
 
 
-### How to get scores of (i.e., evaluate) your AI systems?
+### Q: How to get scores of (i.e., evaluate) your AI systems?
 
 #### 1 Using ExplainaBoard SDK
 
@@ -35,15 +35,15 @@ where
 
 
 
-### How to submit your AI to Gaokao Benchmark?
+### Q: How to submit your AI to Gaokao Benchmark?
 * check out [documentation](https://github.com/neulab/explainaboard_client/tree/add_benchmark_submit/example/gaokao)
 
 
-### Where to browse Gaokao leaderboard?
+### Q: Where to browse Gaokao leaderboard?
 * [here](https://explainaboard.inspiredco.ai/benchmark)
 
 
-### Add more papers into Gaokao Benchmark?
+### Q: Add more papers into Gaokao Benchmark?
 *  add dataset into DataLab following this [documentation](https://github.com/ExpressAI/DataLab/blob/main/docs/SDK/add_new_datasets_into_sdk.md)
 *  update Gaokao benchmark config file and set up a pull request [here](https://github.com/neulab/explainaboard_web)
 
