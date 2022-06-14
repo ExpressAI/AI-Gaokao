@@ -27,11 +27,23 @@ where
 
 ### How to get scores of (i.e., evaluate) your AI systems?
 
+#### 1 Using ExplainaBoard SDK
+
+
+#### 2. Using ExplainaBoard Web Platform
+
+
+
+
 ### How to submit your AI to Gaokao Benchmark?
 * check out [documentation](https://github.com/neulab/explainaboard_client/tree/add_benchmark_submit/example/gaokao)
 
+
 ### Where to browse Gaokao leaderboard?
+* [here](https://explainaboard.inspiredco.ai/benchmark)
+
 
 ### Add more papers into Gaokao Benchmark?
-
+*  add dataset into DataLab following this [documentation](https://github.com/ExpressAI/DataLab/blob/main/docs/SDK/add_new_datasets_into_sdk.md)
+*  update Gaokao benchmark config file and set up a pull request [here](https://github.com/neulab/explainaboard_web)
 
