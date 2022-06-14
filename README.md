@@ -4,14 +4,18 @@
 </p>
 
 
-## Description
+#### Description
+Gaokao Benchmark aims to track how well we make progress towards human-level intelligence. It can not only provide a comprehensive evaluation of different tasks and domains that are practically useful in a real-world scenario, but also provide rich human performance so that AI systems can be
+directly compared with humans over time.
 
-## How to download Gaokao datasets?
 
-## How to get scores of (i.e., evaluate) your AI systems?
 
-## Where to browse Gaokao leaderboard?
+### How to download Gaokao datasets?
 
-## Add more papers into Gaokao Benchmark?
+### How to get scores of (i.e., evaluate) your AI systems?
+
+### Where to browse Gaokao leaderboard?
+
+### Add more papers into Gaokao Benchmark?
 
 
