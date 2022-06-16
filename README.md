@@ -35,7 +35,7 @@ Different types of questions in Gaokao English are formatted diversely. Below we
 * **writing-essay**: Write an essay according to the requirements of the problem.
 
 
-## Q: How to get scores of (i.e., evaluate) your AI systems (Single Task)?
+## Q: How to Evaluate your Gaokao AI systems (Single Task)?
 
 ### Preprocess system output for each question type
 We have provide multiple ways for Gaokao system evaluation, before which, system outputs from different question types (i.e., `subdataset`) should be
@@ -100,10 +100,22 @@ Notably, here we temporarily use the evaluate metric `bleu`. But if you want to 
 ### Method 2: Using ExplainaBoard Web Platform
 An alternative way to test your Gaokao system w.r.t each question type (e.g., listening) is using the ExplainaBoard web platform. Specifically,
 
-* access the explainaboard web - [dataset page](https://explainaboard.inspiredco.ai/datasets)
-* search Gaokao dataset and choose the one where system outputs are generated
-* click `test` in the `Leaderboard` column and then your will enter into a submission page for individual system
-* click `New`, fill in necessary information, and click `submit`
+* Access the explainaboard web - [dataset page](https://explainaboard.inspiredco.ai/datasets)
+* Search Gaokao dataset and choose the one where system outputs are generated
+* Click `test` in the `Leaderboard` column and then your will enter into a submission page for individual system
+* Click `New`, fill in necessary information, and click `submit`
+
+For your convenience, we detail how to fill in the submission form for each question type in Gaokao:
+
+##### (1) Evaluate `listening`
+* `System name`: whatever you like (but for if different system outputs come from the same system, we suggest that you provide the same system name.
+* `Task`: `qa-multiple-choice`
+* `Use custom dataset?`: don't choose this
+* `Metrics`: `CorrectCount`
+* `Make it private?`: it depends on your preference. But if it's set `private`, it will not be displayed in the public Gaokao Benchmark.
+* `Shared Users`: Optional
+* `Input Lang/Output Lang`: `en` (since so far, it only supports for English paper evaluation) 
+* `System Details`: optional
 
 
 
