@@ -61,5 +61,5 @@ Different types of questions in Gaokao English are formatted diversely. Below we
 *  update Gaokao benchmark config file and set up a pull request [here](https://github.com/neulab/explainaboard_web)
 
 ## Gaokao Robot - QIN
-<img width="415" alt="image" src="https://user-images.githubusercontent.com/50064641/173988036-350ff126-3b3c-4e05-a9a6-d4d35245d32c.png">
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/50064641/173988036-350ff126-3b3c-4e05-a9a6-d4d35245d32c.png">
 We develop a Gaokao robot QIN.
