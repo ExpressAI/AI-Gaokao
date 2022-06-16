@@ -38,12 +38,28 @@ Different types of questions in Gaokao English are formatted diversely. Below we
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/50064641/173987806-49fc25ed-0b9c-4297-8f5d-560b19b5b3a8.png">
 
 
-### Q: How to get scores of (i.e., evaluate) your AI systems?
+### Q: How to get scores of (i.e., evaluate) your AI systems (Single Task)?
+
 
 #### 1. Using ExplainaBoard SDK
+Install ExplainaBoard
+```
+pip install --upgrade pip  # recommending the newest version of pip.
+pip install explainaboard
+```
+
+##### (1) Evaluate `Listening`
+```
+explainaboard --task qa-multiple-choice --dataset gaokao2018_np1 --sub_dataset listening --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_listening.json > report.json
+```
+
+
+
+
 
 
 #### 2. Using ExplainaBoard Web Platform
+
 
 
 
