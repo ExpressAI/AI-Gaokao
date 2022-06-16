@@ -48,8 +48,6 @@ pip install --upgrade pip  # recommending the newest version of pip.
 pip install explainaboard
 ```
 
-
-
 ##### (1) Evaluate `listening`
 ```
 explainaboard --task qa-multiple-choice --dataset gaokao2018_np1 --sub_dataset listening --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_listening.json > report.json
@@ -80,12 +78,23 @@ explainaboard --task cloze-multiple-choice --dataset gaokao2018_np1 --sub_datase
 explainaboard --task grammatical-error-correction --dataset gaokao2018_np1 --sub_dataset writing-grammar --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_gec.json > report.json
 ```
 
-#### (7) Evaluate ``
+#### (7) Evaluate `writing-essay`
+```
+explainaboard --task conditional-generation --dataset gaokao2018_np1 --sub_dataset writing-essay --metrics bleu --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_writing_essay.tsv > report.json
+```
+Notably, here we temporarily use the evaluate metric `bleu`. But if you want to the your generated essay being evaluated by human (high-school teachers), see below.
 
-
+ 
 
 #### 2. Using ExplainaBoard Web Platform
 
+
+Notably, currently the generated essays are evaluated by the evaluate metric `bleu`. 
+But if you want to the your generated essay being evaluated by human (high-school teachers),
+you can send us
+* the name of your submitted systems
+* your explainaboard account (i.e., email)
+Then we will do find qualified evaluators for you.
 
 
 
