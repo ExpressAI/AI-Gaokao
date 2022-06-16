@@ -166,7 +166,7 @@ certain **order**
 * run script provided below and then you can see your submission in ExplainaBoard web platform.
 
 
-##### check out [documentation](https://github.com/neulab/explainaboard_client/tree/add_benchmark_submit/example/gaokao)
+#### Check out detailed [documentation](https://github.com/neulab/explainaboard_client/tree/add_benchmark_submit/example/gaokao)
 
 
 ## Q: Where to browse Gaokao leaderboard?
