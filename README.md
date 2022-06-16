@@ -35,7 +35,7 @@ Different types of questions in Gaokao English are formatted diversely. Below we
 * **writing-essay**: Write an essay according to the requirements of the problem.
 
 
-<img width="613" alt="image" src="https://user-images.githubusercontent.com/50064641/173987806-49fc25ed-0b9c-4297-8f5d-560b19b5b3a8.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/50064641/173987806-49fc25ed-0b9c-4297-8f5d-560b19b5b3a8.png">
 
 
 ### Q: How to get scores of (i.e., evaluate) your AI systems?
