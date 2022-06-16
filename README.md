@@ -3,6 +3,7 @@
 <img src="https://user-images.githubusercontent.com/59123869/173433076-de9036e2-3383-4670-b142-c5f9c27f54ed.png" width="500"/>
 </p>
 
+## Introduction
 
 ### Q: What is Gaokao Benchmark?
 Gaokao Benchmark aims to track how well we make progress towards human-level intelligence. It can not only provide a comprehensive evaluation of different tasks and domains that are practically useful in a real-world scenario, but also provide rich human performance so that AI systems can be
@@ -25,13 +26,13 @@ where
 * `listening` is a subdataset name that represents question type in Gaokao. You can find all question types [here](xx)
 
 Different types of questions in Gaokao English are formatted diversely. Below we will give detailed description.
-* listening
-* cloze-multiple-choice
-* cloze-hint
-* reading-multiple-choice
-* reading-cloze
-* writing-grammar
-* writing-essay
+* **listening**: Given a piece of listening material, choose the correct option to answer the question based on what you have heard.
+* **cloze-multiple-choice**: Given a text with a number of blank positions, for each blank position, choose the appropriate option from the given choices to fill in.
+* **cloze-hint**: Given a text with a number of blank positions, for each blank position, generate an appropriate word or phrase to fill in based on some hints.
+* **reading-multiple-choice**: Given a reading passage, choose the correct option to answer the question based on the content of the article.
+* **reading-cloze**: Given a text with a number of blank positions, for each blank position, choose the correct sentence from the options to fill it.
+* **writing-grammar**: Correct a number of grammatical errors in the provided text.
+* **writing-essay**: Write an essay according to the requirements of the problem.
 
 
 
@@ -58,3 +59,4 @@ Different types of questions in Gaokao English are formatted diversely. Below we
 *  add dataset into DataLab following this [documentation](https://github.com/ExpressAI/DataLab/blob/main/docs/SDK/add_new_datasets_into_sdk.md)
 *  update Gaokao benchmark config file and set up a pull request [here](https://github.com/neulab/explainaboard_web)
 
+## Gaokao Robot - QIN
