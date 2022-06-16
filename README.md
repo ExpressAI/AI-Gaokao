@@ -119,6 +119,9 @@ For your convenience, we detail how to fill in the submission form for each ques
 * `Input Lang/Output Lang`: `en` (since so far, it only supports for English paper evaluation) 
 * `System Details`: optional
 
+For other types of questions (i.e., subdataset), ones can follow the above prompt to fill in the form, where the only differences exist in the 
+`Task` and `Metrics`. We detail them below.
+
 ##### (2) Evaluate `cloze-multiple-choice`
 * `Task`: `qa-multiple-choice`
 * `Metrics`: `CorrectCount`
