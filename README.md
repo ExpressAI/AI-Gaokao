@@ -111,21 +111,43 @@ For your convenience, we detail how to fill in the submission form for each ques
 * `System name`: whatever you like (but for if different system outputs come from the same system, we suggest that you provide the same system name.
 * `Task`: `qa-multiple-choice`
 * `Use custom dataset?`: don't choose this
+* `Dataset`: it depends on the dataset and subdataset name, for example: `gaokao2018_np1 writing-grammar`
+* `Split`: test
 * `Metrics`: `CorrectCount`
 * `Make it private?`: it depends on your preference. But if it's set `private`, it will not be displayed in the public Gaokao Benchmark.
 * `Shared Users`: Optional
 * `Input Lang/Output Lang`: `en` (since so far, it only supports for English paper evaluation) 
 * `System Details`: optional
 
+##### (2) Evaluate `cloze-multiple-choice`
+* `Task`: `qa-multiple-choice`
+* `Metrics`: `CorrectCount`
 
 
+##### (3) Evaluate `cloze-hint`
+* `Task`: `cloze-generative`
+* `Metrics`: `CorrectCount`
 
 
+##### (4) Evaluate `reading-multiple-choice`
+* `Task`: `qa-multiple-choice`
+* `Metrics`: `CorrectCount`
 
+##### (5) Evaluate `reading-cloze`
+* `Task`: `cloze-multiple-choice`
+* `Metrics`: `CorrectCount`
 
-Notably, currently the generated essays are evaluated by the evaluate metric `bleu`. 
+##### (6) Evaluate `writing-grammar`
+* `Task`: `grammatical-error-correction`
+* `Metrics`: `SeqCorrectCount`
+
+##### (7) Evaluate `writing-essay`
+* `Task`: `conditional-generation`
+* `Metrics`: `bleu`
+
+Notably, **currently the generated essays are evaluated by the evaluate metric `bleu`. 
 But if you want to the your generated essay being evaluated by human (high-school teachers),
-you can send us
+you can send us**
 * the name of your submitted systems
 * your explainaboard account (i.e., email)
 Then we will do find qualified evaluators for you.
