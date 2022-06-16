@@ -159,7 +159,14 @@ Then we will do find qualified evaluators for you.
 
 
 ## Q: How to submit your AI to Gaokao Benchmark?
-* check out [documentation](https://github.com/neulab/explainaboard_client/tree/add_benchmark_submit/example/gaokao)
+So far, the total number of subdatasets covered in Gaokao Benchmark is 70, it's troublesome if users process or upload them individually.
+To further facilite users' evaluation, we provide an API that users can upload all 70 system outputs at one time. The general idea is:
+* follow the above description to preprocess system outputs for different question types and put all of them in a folder (e.g., `submission`) following
+certain **order**
+* run script provided below and then you can see your submission in ExplainaBoard web platform.
+
+
+##### check out [documentation](https://github.com/neulab/explainaboard_client/tree/add_benchmark_submit/example/gaokao)
 
 
 ## Q: Where to browse Gaokao leaderboard?
