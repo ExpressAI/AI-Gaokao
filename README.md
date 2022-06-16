@@ -3,15 +3,15 @@
 <img src="https://user-images.githubusercontent.com/59123869/173433076-de9036e2-3383-4670-b142-c5f9c27f54ed.png" width="500"/>
 </p>
 
-## Introduction
 
-### Q: What is Gaokao Benchmark?
+
+## Q: What is Gaokao Benchmark?
 Gaokao Benchmark aims to track how well we make progress towards human-level intelligence. It can not only provide a comprehensive evaluation of different tasks and domains that are practically useful in a real-world scenario, but also provide rich human performance so that AI systems can be
 directly compared with humans over time.
 
 
 
-### Q: How to download Gaokao datasets?
+## Q: How to download Gaokao datasets?
 
 ```
 pip install --upgrade pip
@@ -35,9 +35,9 @@ Different types of questions in Gaokao English are formatted diversely. Below we
 * **writing-essay**: Write an essay according to the requirements of the problem.
 
 
-### Q: How to get scores of (i.e., evaluate) your AI systems (Single Task)?
+## Q: How to get scores of (i.e., evaluate) your AI systems (Single Task)?
 
-#### Preprocess system output for each question type
+### Preprocess system output for each question type
 We have provide multiple ways for Gaokao system evaluation, before which, system outputs from different question types (i.e., `subdataset`) should be
 processed into specific formats. 
 
@@ -52,7 +52,7 @@ processed into specific formats.
 
 
 
-#### 1. Using ExplainaBoard SDK
+### Method 1:  Using ExplainaBoard SDK
 Install ExplainaBoard
 ```
 pip install --upgrade pip  # recommending the newest version of pip.
@@ -69,27 +69,27 @@ explainaboard --task qa-multiple-choice --dataset gaokao2018_np1 --sub_dataset l
 explainaboard --task cloze-multiple-choice --dataset gaokao2018_np1 --sub_dataset cloze-multiple-choice --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_cloze_choice.json > report.json
 ```
 
-#### (3) Evaluate `cloze-hint`
+##### (3) Evaluate `cloze-hint`
 ```
 explainaboard --task cloze-generative --dataset gaokao2018_np1 --sub_dataset cloze-hint --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_cloze_hint.json > report.json
 ```
 
-#### (4) Evaluate `reading-multiple-choice`
+##### (4) Evaluate `reading-multiple-choice`
 ```
 explainaboard --task qa-multiple-choice --dataset gaokao2018_np1 --sub_dataset reading-multiple-choice --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_reading_mc.json > report.json
 ```
 
-#### (5) Evaluate `reading-cloze`
+##### (5) Evaluate `reading-cloze`
 ```
 explainaboard --task cloze-multiple-choice --dataset gaokao2018_np1 --sub_dataset reading-cloze --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_reading_dependent_cloze.json > report.json
 ```
 
-#### (6) Evaluate `writing-grammar`
+##### (6) Evaluate `writing-grammar`
 ```
 explainaboard --task grammatical-error-correction --dataset gaokao2018_np1 --sub_dataset writing-grammar --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_gec.json > report.json
 ```
 
-#### (7) Evaluate `writing-essay`
+##### (7) Evaluate `writing-essay`
 ```
 explainaboard --task conditional-generation --dataset gaokao2018_np1 --sub_dataset writing-essay --metrics bleu --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_writing_essay.tsv > report.json
 ```
@@ -97,7 +97,9 @@ Notably, here we temporarily use the evaluate metric `bleu`. But if you want to 
 
  
 
-#### 2. Using ExplainaBoard Web Platform
+#### Method 2: Using ExplainaBoard Web Platform
+
+
 
 
 Notably, currently the generated essays are evaluated by the evaluate metric `bleu`. 
@@ -110,15 +112,15 @@ Then we will do find qualified evaluators for you.
 
 
 
-### Q: How to submit your AI to Gaokao Benchmark?
+## Q: How to submit your AI to Gaokao Benchmark?
 * check out [documentation](https://github.com/neulab/explainaboard_client/tree/add_benchmark_submit/example/gaokao)
 
 
-### Q: Where to browse Gaokao leaderboard?
+## Q: Where to browse Gaokao leaderboard?
 * [here](https://explainaboard.inspiredco.ai/benchmark)
 
 
-### Q: Add more papers into Gaokao Benchmark?
+## Q: Add more papers into Gaokao Benchmark?
 *  add dataset into DataLab following this [documentation](https://github.com/ExpressAI/DataLab/blob/main/docs/SDK/add_new_datasets_into_sdk.md)
 *  update Gaokao benchmark config file and set up a pull request [here](https://github.com/neulab/explainaboard_web)
 
