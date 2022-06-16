@@ -48,13 +48,39 @@ pip install --upgrade pip  # recommending the newest version of pip.
 pip install explainaboard
 ```
 
-##### (1) Evaluate `Listening`
+
+
+##### (1) Evaluate `listening`
 ```
 explainaboard --task qa-multiple-choice --dataset gaokao2018_np1 --sub_dataset listening --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_listening.json > report.json
 ```
 
+##### (2) Evaluate `cloze-multiple-choice`
+```
+explainaboard --task cloze-multiple-choice --dataset gaokao2018_np1 --sub_dataset cloze-multiple-choice --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_cloze_choice.json > report.json
+```
 
+#### (3) Evaluate `cloze-hint`
+```
+explainaboard --task cloze-generative --dataset gaokao2018_np1 --sub_dataset cloze-hint --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_cloze_hint.json > report.json
+```
 
+#### (4) Evaluate `reading-multiple-choice`
+```
+explainaboard --task qa-multiple-choice --dataset gaokao2018_np1 --sub_dataset reading-multiple-choice --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_reading_mc.json > report.json
+```
+
+#### (5) Evaluate `reading-cloze`
+```
+explainaboard --task cloze-multiple-choice --dataset gaokao2018_np1 --sub_dataset reading-cloze --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_reading_dependent_cloze.json > report.json
+```
+
+#### (6) Evaluate `writing-grammar`
+```
+explainaboard --task grammatical-error-correction --dataset gaokao2018_np1 --sub_dataset writing-grammar --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_gec.json > report.json
+```
+
+#### (7) Evaluate ``
 
 
 
