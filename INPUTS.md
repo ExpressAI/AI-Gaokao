@@ -1,7 +1,7 @@
 # Samples from Gaokao Benchmark
 
 ## listening
-The sample question is shown below, where there are five fields in total: `context` (the transcript got using automatic speech recognition), `context_oracle` (the gold transcript), `question`, `options`, and `answer`. Please note that for `context`, we provide the official transcript.
+The sample question is shown below, where there are five fields in total: `context` (the transcript got using automatic speech recognition), `context_oracle` (the gold transcript), `question`, `options`, and `answer`. 
 ```json
 {
     "context": "W: \"James, you've been watching TV for the whole evening. What's on?\" M: \"It's a science program on the origin of the universe. I'll give a presentation on it in my class tomorrow.\"", 
