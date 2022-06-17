@@ -39,7 +39,7 @@ Different types of questions in Gaokao English are formatted diversely. Below we
 
 ### Preprocess system output for each question type
 We have provided multiple ways for Gaokao system evaluation, before which, system outputs from different question types (i.e., `subdataset`) should be
-processed into specific formats. Please see examples in [data/system_outputs](data/system_outputs)
+processed into specific formats. Please see examples in [data/system_outputs](data/system_outputs).
 
 * `listening`
 * `cloze-multiple-choice`
