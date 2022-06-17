@@ -38,7 +38,7 @@ Different types of questions in Gaokao English are formatted diversely. Below we
 ## Q: How to Evaluate your Gaokao AI systems (Single Task)?
 
 ### Preprocess system output for each question type
-We have provide multiple ways for Gaokao system evaluation, before which, system outputs from different question types (i.e., `subdataset`) should be
+We have provided multiple ways for Gaokao system evaluation, before which, system outputs from different question types (i.e., `subdataset`) should be
 processed into specific formats. 
 
 * `listening`
