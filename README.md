@@ -61,37 +61,37 @@ pip install explainaboard
 
 ##### (1) Evaluate `listening`
 ```
-explainaboard --task qa-multiple-choice --dataset gaokao2018_np1 --sub_dataset listening --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_listening.json > report.json
+explainaboard --task qa-multiple-choice --dataset gaokao2018_np1 --sub_dataset listening --system_outputs ./data/system_outputs/rst_2018_quanguojuan1_listening.json > report.json
 ```
 
 ##### (2) Evaluate `cloze-multiple-choice`
 ```
-explainaboard --task cloze-multiple-choice --dataset gaokao2018_np1 --sub_dataset cloze-multiple-choice --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_cloze_choice.json > report.json
+explainaboard --task cloze-multiple-choice --dataset gaokao2018_np1 --sub_dataset cloze-multiple-choice --system_outputs ./data/system_outputs/rst_2018_quanguojuan1_cloze_choice.json > report.json
 ```
 
 ##### (3) Evaluate `cloze-hint`
 ```
-explainaboard --task cloze-generative --dataset gaokao2018_np1 --sub_dataset cloze-hint --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_cloze_hint.json > report.json
+explainaboard --task cloze-generative --dataset gaokao2018_np1 --sub_dataset cloze-hint --system_outputs ./data/system_outputs/rst_2018_quanguojuan1_cloze_hint.json > report.json
 ```
 
 ##### (4) Evaluate `reading-multiple-choice`
 ```
-explainaboard --task qa-multiple-choice --dataset gaokao2018_np1 --sub_dataset reading-multiple-choice --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_reading_mc.json > report.json
+explainaboard --task qa-multiple-choice --dataset gaokao2018_np1 --sub_dataset reading-multiple-choice --system_outputs ./data/system_outputs/rst_2018_quanguojuan1_reading_mc.json > report.json
 ```
 
 ##### (5) Evaluate `reading-cloze`
 ```
-explainaboard --task cloze-multiple-choice --dataset gaokao2018_np1 --sub_dataset reading-cloze --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_reading_dependent_cloze.json > report.json
+explainaboard --task cloze-multiple-choice --dataset gaokao2018_np1 --sub_dataset reading-cloze --system_outputs ./data/system_outputs/rst_2018_quanguojuan1_reading_dependent_cloze.json > report.json
 ```
 
 ##### (6) Evaluate `writing-grammar`
 ```
-explainaboard --task grammatical-error-correction --dataset gaokao2018_np1 --sub_dataset writing-grammar --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_2018_quanguojuan1_gec.json > report.json
+explainaboard --task grammatical-error-correction --dataset gaokao2018_np1 --sub_dataset writing-grammar --system_outputs ./data/system_outputs/rst_2018_quanguojuan1_gec.json > report.json
 ```
 
 ##### (7) Evaluate `writing-essay`
 ```
-explainaboard --task conditional-generation --dataset gaokao2018_np1 --sub_dataset writing-essay --metrics bleu --system_outputs ./explainaboard/tests/artifacts/gaokao/rst_writing_essay.tsv > report.json
+explainaboard --task conditional-generation --dataset gaokao2018_np1 --sub_dataset writing-essay --metrics bleu --system_outputs ./data/system_outputs/rst_writing_essay.tsv > report.json
 ```
 Notably, here we temporarily use the evaluate metric `bleu`. But if you want to the your generated essay being evaluated by human (high-school teachers), see below.
 
