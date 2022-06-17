@@ -98,7 +98,7 @@ Notably, here we temporarily use the evaluate metric `bleu`. But if you want to 
  
 
 ### Method 2: Using ExplainaBoard Web Platform
-An alternative way to test your Gaokao system w.r.t each question type (e.g., listening) is using the ExplainaBoard web platform. Specifically,
+An alternative way to test your Gaokao system w.r.t. each question type (e.g., listening) is using the ExplainaBoard web platform. Specifically,
 
 * Access the explainaboard web - [dataset page](https://explainaboard.inspiredco.ai/datasets)
 * Search Gaokao dataset and choose the one where system outputs are generated
