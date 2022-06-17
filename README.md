@@ -108,7 +108,7 @@ An alternative way to test your Gaokao system w.r.t. each question type (e.g., l
 For your convenience, we detail how to fill in the submission form for each question type in Gaokao:
 
 ##### (1) Evaluate `listening`
-* `System name`: whatever you like (but for if different system outputs come from the same system, we suggest that you provide the same system name.
+* `System name`: whatever you like (but if different system outputs come from the same system, we suggest that you provide the same system name.
 * `Task`: `qa-multiple-choice`
 * `Use custom dataset?`: don't choose this
 * `Dataset`: it depends on the dataset and subdataset name, for example: `gaokao2018_np1 writing-grammar`
