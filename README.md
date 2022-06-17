@@ -25,7 +25,7 @@ where
   [here](https://explainaboard.inspiredco.ai/datasets) 
 * `listening` is a subdataset name that represents question type in Gaokao. You can find all question types [here](xx)
 
-Different types of questions in Gaokao English are formatted diversely. Below we will give detailed description. Example questions can be found in [inputs.md](inputs.md).
+Different types of questions in Gaokao English are formatted diversely. Below we will give detailed description. Example questions can be found in [INPUTS.md](INPUTS.md).
 * **listening**: Given a piece of listening material, choose the correct option to answer the question based on what you have heard.
 * **cloze-multiple-choice**: Given a text with a number of blank positions, for each blank position, choose the appropriate option from the given choices to fill in.
 * **cloze-hint**: Given a text with a number of blank positions, for each blank position, generate an appropriate word or phrase to fill in based on some hints.
