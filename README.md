@@ -161,7 +161,7 @@ Then we will do find qualified evaluators for you.
 ## Q: How to submit your AI to Gaokao Benchmark?
 So far, the total number of subdatasets covered in Gaokao Benchmark is 70, it's troublesome if users process or upload them individually.
 To further facilite users' evaluation, we provide an API that users can upload all 70 system outputs at one time. The general idea is:
-* follow the above description to preprocess system outputs for different question types and put all of them in a folder (e.g., `submission`) following
+* follow the [above description](https://github.com/ExpressAI/AI-Gaokao#preprocess-system-output-for-each-question-type) to preprocess system outputs for different question types and put all of them in a folder (e.g., `submission`) following
 certain **order**
 * run script provided below and then you can see your submission in ExplainaBoard web platform.
 
