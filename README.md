@@ -21,7 +21,7 @@ from datalabs import load_dataset
 dataset = load_dataset("gaokao2018_np1", "listening")
 ```
 where 
-* `gaokao2018_np1` is a datasetname that represents the version of Gaokao (e.g., year). You can find all dataset and subdataset names
+* `gaokao2018_np1` is a dataset name that represents the version of Gaokao (e.g., year). You can find all dataset and subdataset names
   [here](https://explainaboard.inspiredco.ai/datasets) 
 * `listening` is a subdataset name that represents question type in Gaokao. You can find all question types [here](xx)
 
