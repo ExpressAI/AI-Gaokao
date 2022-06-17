@@ -5,7 +5,7 @@ The sample question is shown below, where there are five fields in total: `conte
 ```json
 {
     "context": "W: \"James, you've been watching TV for the whole evening. What's on?\" M: \"It's a science program on the origin of the universe. I'll give a presentation on it in my class tomorrow.\"", 
-    "context": "Person 2: \"James. You've been watching TV for the whole evening what's on?\" Person 1: \"It's a science programme on the origin of the universe. I'll give a presentation on it in my class tomorrow.\"",
+    "context_oracle": "Person 2: \"James. You've been watching TV for the whole evening what's on?\" Person 1: \"It's a science programme on the origin of the universe. I'll give a presentation on it in my class tomorrow.\"",
     "question": "what will James do tomorrow?", 
     "options": ["Watch a TV program.", "Give a talk.", "Write a report."], 
     "answer": "Give a talk."
