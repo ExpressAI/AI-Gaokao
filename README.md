@@ -93,7 +93,10 @@ explainaboard --task grammatical-error-correction --dataset gaokao2018_np1 --sub
 ```
 explainaboard --task conditional-generation --dataset gaokao2018_np1 --sub_dataset writing-essay --metrics bleu --system_outputs ./data/system_outputs/rst_writing_essay.tsv > report.json
 ```
-Notably, here we temporarily use the evaluate metric `bleu`. But if you want to the your generated essay being evaluated by human (high-school teachers), see below.
+**Notably, here we temporarily use the evaluation metric `bleu`. But if you want your generated essay being evaluated by human (high-school teachers), you can send us**
+* the name of your submitted systems
+* your explainaboard account (i.e., email)
+Then we will find qualified evaluators for you.
 
  
 
@@ -148,12 +151,12 @@ For other types of questions (i.e., subdataset), ones can follow the above promp
 * `Task`: `conditional-generation`
 * `Metrics`: `bleu`
 
-Notably, **currently the generated essays are evaluated by the evaluate metric `bleu`. 
-But if you want to the your generated essay being evaluated by human (high-school teachers),
+Notably, **currently the generated essays are evaluated by the evaluation metric `bleu`. 
+But if you want your generated essay being evaluated by human (high-school teachers),
 you can send us**
 * the name of your submitted systems
 * your explainaboard account (i.e., email)
-Then we will do find qualified evaluators for you.
+Then we will find qualified evaluators for you.
 
 
 
