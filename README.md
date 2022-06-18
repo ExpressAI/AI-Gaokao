@@ -8,12 +8,12 @@ Table of contents
 =================
 
 <!--ts-->
-* [Q: What is Gaokao Benchmark?](#q:-what-is-gaokao-benchmark?)
-* [Q: How to download Gaokao datasets?](#Q:-How-to-download-Gaokao-datasets?)
-* [Q: How to Evaluate your Gaokao AI systems (Single Task)?](#Q:-How-to-Evaluate-your-Gaokao-AI-systems-(Single-Task)?)
-* [Q: How to submit your AI to Gaokao Benchmark?](#Q:-How-to-submit-your-AI-to-Gaokao-Benchmark?)
-* [Q: Where to browse Gaokao leaderboard?](#Q:-Where-to-browse-Gaokao-leaderboard?)
-* [Q: Add more papers into Gaokao Benchmark?](#q:-add-more-papers-into-gaokao-benchmark?)
+* [What is Gaokao Benchmark?](#what-is-gaokao-benchmark?)
+* [How to download Gaokao datasets?](#how-to-download-gaokao-datasets?)
+* [How to Evaluate your Gaokao AI systems (Single Task)?](#how-to-evaluate-your-gaokao-ai-systems-(single-task)?)
+* [How to submit your AI to Gaokao Benchmark?](#how-to-submit-your-ai-to-gaokao-benchmark?)
+* [Where to browse Gaokao leaderboard?](#where-to-browse-gaokao-leaderboard?)
+* [Add more papers into Gaokao Benchmark?](#add-more-papers-into-gaokao-benchmark)
 <!--te-->
 
 
@@ -22,13 +22,13 @@ Table of contents
 
 
 
-## Q: What is Gaokao Benchmark?
+## What is Gaokao Benchmark
 Gaokao Benchmark aims to track how well we make progress towards human-level intelligence. It can not only provide a comprehensive evaluation of different tasks and domains that are practically useful in a real-world scenario, but also provide rich human performance so that AI systems can be
 directly compared with humans over time.
 
 
 
-## Q: How to download Gaokao datasets?
+## How to download Gaokao datasets
 
 ```
 pip install --upgrade pip
@@ -52,7 +52,7 @@ Different types of questions in Gaokao English are formatted diversely. Below we
 * **writing-essay**: Write an essay according to the requirements of the problem.
 
 
-## Q: How to Evaluate your Gaokao AI systems (Single Task)?
+## How to Evaluate your Gaokao AI systems (Single Task)
 
 ### Preprocess system output for each question type
 We have provided multiple ways for Gaokao system evaluation, before which, system outputs from different question types (i.e., `subdataset`) should be
@@ -178,7 +178,7 @@ Then we will find qualified evaluators for you.
 
 
 
-## Q: How to submit your AI to Gaokao Benchmark?
+## How to submit your AI to Gaokao Benchmark
 So far, the total number of subdatasets covered in Gaokao Benchmark is 70, it's troublesome if users process or upload them individually.
 To further facilite users' evaluation, we provide an API that users can upload all 70 system outputs at one time. The general idea is:
 * follow the [above description](https://github.com/ExpressAI/AI-Gaokao#preprocess-system-output-for-each-question-type) to preprocess system outputs for different question types and put all of them in a folder (e.g., `submission`) following
@@ -189,10 +189,10 @@ certain **order**
 #### Check out detailed [documentation](https://github.com/neulab/explainaboard_client/tree/add_benchmark_submit/example/gaokao)
 
 
-## Q: Where to browse Gaokao leaderboard?
+## Where to browse Gaokao leaderboard
 * [here](https://explainaboard.inspiredco.ai/benchmark)
 
 
-## Q: Add more papers into Gaokao Benchmark?
+## Add more papers into Gaokao Benchmark
 *  add dataset into DataLab following this [documentation](https://github.com/ExpressAI/DataLab/blob/main/docs/SDK/add_new_datasets_into_sdk.md)
 *  update Gaokao benchmark config file and set up a pull request [here](https://github.com/neulab/explainaboard_web)
