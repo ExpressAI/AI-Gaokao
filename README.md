@@ -3,6 +3,16 @@
 <img src="https://user-images.githubusercontent.com/59123869/173433076-de9036e2-3383-4670-b142-c5f9c27f54ed.png" width="500"/>
 </p>
 
+# Table of Contents
+1. [Q: What is Gaokao Benchmark?](#Q:-What-is-Gaokao-Benchmark?)
+2. [Q: How to download Gaokao datasets?](Q:-How-to-download-Gaokao-datasets?)
+3. [Q: How to Evaluate your Gaokao AI systems (Single Task)?](Q:-How-to-Evaluate-your-Gaokao-AI-systems-(Single-Task)?)
+4. [Q: How to submit your AI to Gaokao Benchmark?](Q:-How-to-submit-your-AI-to-Gaokao-Benchmark?)
+5. [Q: Where to browse Gaokao leaderboard?](Q:-Where-to-browse-Gaokao-leaderboard?)
+6. [Q: Add more papers into Gaokao Benchmark?](Q:-Add-more-papers-into-Gaokao-Benchmark?)
+
+
+
 
 
 ## Q: What is Gaokao Benchmark?
@@ -179,13 +189,3 @@ certain **order**
 ## Q: Add more papers into Gaokao Benchmark?
 *  add dataset into DataLab following this [documentation](https://github.com/ExpressAI/DataLab/blob/main/docs/SDK/add_new_datasets_into_sdk.md)
 *  update Gaokao benchmark config file and set up a pull request [here](https://github.com/neulab/explainaboard_web)
-
-## Gaokao Robot - QIN
-<div>
-  <div>
-    <img width="150" alt="image" src="https://user-images.githubusercontent.com/50064641/173988036-350ff126-3b3c-4e05-a9a6-d4d35245d32c.png">
-  </div>
-  We develop a Gaokao robot QIN
-</div>
-
-We develop a Gaokao robot QIN.
