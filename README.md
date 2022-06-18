@@ -10,9 +10,9 @@ Table of contents
 <!--ts-->
 * [What is Gaokao Benchmark?](#what-is-gaokao-benchmark?)
 * [How to download Gaokao datasets?](#how-to-download-gaokao-datasets?)
-* [How to Evaluate your Gaokao AI systems (Single Task)?](#how-to-evaluate-your-gaokao-ai-systems-(single-task)?)
-* [How to submit your AI to Gaokao Benchmark?](#how-to-submit-your-ai-to-gaokao-benchmark?)
-* [Where to browse Gaokao leaderboard?](#where-to-browse-gaokao-leaderboard?)
+* [How to Evaluate your Gaokao AI systems (Single Task)?](#how-to-evaluate-your-gaokao-ai-systems-(single-task))
+* [How to submit your AI to Gaokao Benchmark?](#how-to-submit-your-ai-to-gaokao-benchmark)
+* [Where to browse Gaokao leaderboard?](#where-to-browse-gaokao-leaderboard)
 * [Add more papers into Gaokao Benchmark?](#add-more-papers-into-gaokao-benchmark)
 <!--te-->
 
