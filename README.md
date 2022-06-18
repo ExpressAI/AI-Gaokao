@@ -3,13 +3,17 @@
 <img src="https://user-images.githubusercontent.com/59123869/173433076-de9036e2-3383-4670-b142-c5f9c27f54ed.png" width="500"/>
 </p>
 
+
+Table of contents
+=================
+
 <!--ts-->
-* [Q: What is Gaokao Benchmark?](#Q:-What-is-Gaokao-Benchmark?)
-* [Q: How to download Gaokao datasets?](Q:-How-to-download-Gaokao-datasets?)
-* [Q: How to Evaluate your Gaokao AI systems (Single Task)?](Q:-How-to-Evaluate-your-Gaokao-AI-systems-(Single-Task)?)
-* [Q: How to submit your AI to Gaokao Benchmark?](Q:-How-to-submit-your-AI-to-Gaokao-Benchmark?)
-* [Q: Where to browse Gaokao leaderboard?](Q:-Where-to-browse-Gaokao-leaderboard?)
-* [Q: Add more papers into Gaokao Benchmark?](q:-add-more-papers-into-gaokao-benchmark?)
+* [Q: What is Gaokao Benchmark?](#q:-what-is-gaokao-benchmark?)
+* [Q: How to download Gaokao datasets?](#Q:-How-to-download-Gaokao-datasets?)
+* [Q: How to Evaluate your Gaokao AI systems (Single Task)?](#Q:-How-to-Evaluate-your-Gaokao-AI-systems-(Single-Task)?)
+* [Q: How to submit your AI to Gaokao Benchmark?](#Q:-How-to-submit-your-AI-to-Gaokao-Benchmark?)
+* [Q: Where to browse Gaokao leaderboard?](#Q:-Where-to-browse-Gaokao-leaderboard?)
+* [Q: Add more papers into Gaokao Benchmark?](#q:-add-more-papers-into-gaokao-benchmark?)
 <!--te-->
 
 
