@@ -10,7 +10,7 @@ Table of contents
 <!--ts-->
 * [What is Gaokao Benchmark?](#what-is-gaokao-benchmark?)
 * [How to download Gaokao datasets?](#how-to-download-gaokao-datasets?)
-* [How to Evaluate your Gaokao AI systems (Single Task)?](#how-to-evaluate-your-gaokao-ai-systems-(single-task))
+* [How to Evaluate your Gaokao AI system?](#how-to-evaluate-your-gaokao-ai-systems)
 * [How to submit your AI to Gaokao Benchmark?](#how-to-submit-your-ai-to-gaokao-benchmark)
 * [Where to browse Gaokao leaderboard?](#where-to-browse-gaokao-leaderboard)
 * [Add more papers into Gaokao Benchmark?](#add-more-papers-into-gaokao-benchmark)
@@ -52,7 +52,7 @@ Different types of questions in Gaokao English are formatted diversely. Below we
 * **writing-essay**: Write an essay according to the requirements of the problem.
 
 
-## How to Evaluate your Gaokao AI systems (Single Task)
+## How to Evaluate your Gaokao AI system
 
 ### Preprocess system output for each question type
 We have provided multiple ways for Gaokao system evaluation, before which, system outputs from different question types (i.e., `subdataset`) should be
