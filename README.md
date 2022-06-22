@@ -58,13 +58,13 @@ Different types of questions in Gaokao English are formatted diversely. Below we
 We have provided multiple ways for Gaokao system evaluation, before which, system outputs from different question types (i.e., `subdataset`) should be
 processed into specific formats. Please see examples in [data/system_outputs](data/system_outputs).
 
-* `listening`
-* `cloze-multiple-choice`
-* `cloze-hint`
-* `reading-multiple-choice`
-* `reading-cloze`
-* `writing-grammar`
-* `writing-essay`
+* [`listening`](https://github.com/ExpressAI/AI-Gaokao/blob/main/data/system_outputs/rst_2018_quanguojuan1_listening.json)
+* [`cloze-multiple-choice`](https://github.com/ExpressAI/AI-Gaokao/blob/main/data/system_outputs/rst_2018_quanguojuan1_cloze_choice.json)
+* [`cloze-hint`](https://github.com/ExpressAI/AI-Gaokao/blob/main/data/system_outputs/rst_2018_quanguojuan1_cloze_hint.json)
+* [`reading-multiple-choice`](https://github.com/ExpressAI/AI-Gaokao/blob/main/data/system_outputs/rst_2018_quanguojuan1_reading_mc.json)
+* [`reading-cloze`](https://github.com/ExpressAI/AI-Gaokao/blob/main/data/system_outputs/rst_2018_quanguojuan1_reading_dependent_cloze.json)
+* [`writing-grammar`](https://github.com/ExpressAI/AI-Gaokao/blob/main/data/system_outputs/rst_2018_quanguojuan1_gec.json)
+* [`writing-essay`](https://github.com/ExpressAI/AI-Gaokao/blob/main/data/system_outputs/rst_writing_essay.tsv)
 
 
 
