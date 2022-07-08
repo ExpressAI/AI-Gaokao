@@ -26,13 +26,13 @@ The sample question is shown below, where there are four fields in total: `conte
 
 
 ## cloze-hint
-The sample question is shown below, where there are four fields in total: `context`, `question_mark`, `hint`, and `answer`. Note that `hint` can be `null` as well. There could be multiple correct answers where we use `/` to separate each.
+The sample question is shown below, where there are four fields in total: `context`, `question_mark`, `hint`, and `answer`. Note that `hint` can be `null` as well. There could be multiple correct answers where we use a list to include all of them.
 ```json
 {
     "context": "According to a review of evidence in a medical journal, runners live three years <Q61> than non-runners. You don't have to run fast or for long <Q62> the benefit. You may drink, smoke, be overweight and still reduce your risk of <Q63> early by running.\n\nWhile running regularly can't make you live forever, the review says it <Q64> more effective at lengthening life <Q65> walking, cycling or swimming. Two of the authors of the review also made a study published in 2014 <Q66> showed a mere five to 10 minutes a day of running reduced the risk of heart disease and early deaths from all <Q67>.\nThe best exercise is one that you enjoy and will do. But otherwise it's probably running. To avoid knee pain, you can run on soft surfaces, do exercises to <Q68> your leg muscles, avoid hills and get good running shoes. Running is cheap, easy and it's always <Q69>. If you are time poor, you need run for only half the time to get the same benefits as other sports, so perhaps we should all give <Q70> a try.", 
     "question_mark": "<Q70>", 
     "hint": null,  
-    "answer": "it/running"
+    "answer": ["it", "running"]
 }
 ```
 
